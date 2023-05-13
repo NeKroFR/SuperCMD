@@ -8,11 +8,11 @@
     "blt_version": 2,
      "hooks": [
         {
-            "script_path": "src/hooked/ChatManager.lua",
+            "script_path": "src/hooks/ChatManager.lua",
             "hook_id": "lib/managers/chatmanager"
         },
         {
-            "script_path": "src/hooked/CommandManager.lua",
+            "script_path": "src/hooks/CommandManager.lua",
             "hook_id": "lib/managers/menumanager"
         }
     ]
