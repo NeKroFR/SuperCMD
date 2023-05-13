@@ -1,0 +1,19 @@
+{
+    "name": "Super CMD",
+    "description": "Chat Commands",
+    "author": "NeKroFR",
+    "contact" : "https://github.com/NeKroFR/SuperCMD/pulls",
+    "image" : "cmd.png",
+    "version": "0.0.1",
+    "blt_version": 2,
+     "hooks": [
+        {
+            "script_path": "src/hooked/ChatManager.lua",
+            "hook_id": "lib/managers/chatmanager"
+        },
+        {
+            "script_path": "src/hooked/CommandManager.lua",
+            "hook_id": "lib/managers/menumanager"
+        }
+    ]
+}
